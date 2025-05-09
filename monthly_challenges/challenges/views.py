@@ -3,5 +3,8 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("This works!")
+def jan(request):
+    return HttpResponse("Eat no meat for the entire month!")
+
+def feb(request):
+    return HttpResponse("walk for at least 20 minutes every day!")
